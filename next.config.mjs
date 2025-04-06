@@ -1,4 +1,6 @@
+
 import pkg from '@netlify/next';
+
 const { withNetlify } = pkg;
 
 const nextConfig = {
