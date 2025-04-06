@@ -1,4 +1,5 @@
-export default function DummyPage() {
+
+export default function LegacyPage() {
     return null;
   }
   
