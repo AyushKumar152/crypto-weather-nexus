@@ -1,8 +1,6 @@
-import pkg from '@netlify/next';
-const { withNetlify } = pkg;
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
 };
 
-export default withNetlify(nextConfig);
+export default nextConfig;
