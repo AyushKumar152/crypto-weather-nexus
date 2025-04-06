@@ -1,4 +1,3 @@
-// app/components/ClientWrapper.jsx
 'use client';
 
 import { Provider } from 'react-redux';

@@ -15,7 +15,7 @@ export default function WeatherAlerts() {
     const interval = setInterval(() => {
       const randomIndex = Math.floor(Math.random() * mockWeatherAlerts.length);
       setAlert(mockWeatherAlerts[randomIndex]);
-    }, 10000); // every 10 seconds
+    }, 10000); 
 
     return () => clearInterval(interval);
   }, []);

@@ -6,7 +6,7 @@ export const fetchNews = async () => {
 
   try {
     const res = await fetch(url, {
-      cache: "no-store", // optional: ensures fresh data during dev
+      cache: "no-store",
     });
     const json = await res.json();
     return json.results || [];

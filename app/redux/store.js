@@ -1,4 +1,4 @@
-// redux/store.js
+
 import { configureStore } from '@reduxjs/toolkit';
 import cryptoReducer from './slices/cryptoSlice';
 import weatherReducer from './slices/weatherSlice';

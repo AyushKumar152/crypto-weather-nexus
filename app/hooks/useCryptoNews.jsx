@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchCryptoNews } from "../lib/fetchNews"; // adjust the path if needed
+import { fetchCryptoNews } from "../lib/fetchNews"; 
 
 const useCryptoNews = () => {
   const [news, setNews] = useState([]);

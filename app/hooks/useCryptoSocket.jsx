@@ -15,7 +15,7 @@ export const useCryptoSocket = (assets) => {
 
         socket.onmessage = (event) => {
           const data = JSON.parse(event.data);
-          dispatch(setCryptoData(data)); // ✅ Store in Redux
+          dispatch(setCryptoData(data)); 
         };
 
         socket.onerror = (error) => {

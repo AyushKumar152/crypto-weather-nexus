@@ -1,4 +1,4 @@
-// app/layout.js
+
 import './globals.css';
 import ClientWrapper from './components/ClientWrapper';
 
