@@ -1,3 +1,9 @@
 [build]
   command = "npm run build"
   publish = ".next"
+
+[functions]
+  directory = ".netlify/functions"
+
+[build.environment]
+  GO_VERSION = "1.20" # or "1.21", use a stable version supported by Netlify
